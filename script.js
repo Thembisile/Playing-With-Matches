@@ -1,12 +1,15 @@
-function randomNumber(highest){
-    return Math.floor(Math.random() * Math.floor(highest));
+function randomNumber() {
+    return Math.ceil(Math.random() * 10);
 }
-console.log(randomNumber());
 
-let domNumber = document.querySelector('.ANY');
-let domNumber2 = document.querySelector('.number2');
-let domNumber3 = document.querySelector('.number3');
+let elems = document.querySelectorAll('.any');
+let displayElem = document.querySelector('.display');
 
-domNumber.innerHTML = randomNumber(10);
-domNumber2.innerHTML = randomNumber(10);
-domNumber3.innerHTML = randomNumber(10);
+for (let index = 0; index < elems.length; index++) {
+    const element = elems[index];
+    element.innerHTML = randomNumber(); 
+}
+// if (element === element ) {
+//     displayElem.innerHTML = 'Match Found';
+//     return ;
+// }

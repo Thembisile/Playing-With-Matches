@@ -1,30 +1,4 @@
-.ANY {
-    text-align: center;
-    color : red;
-    background-color: grey;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 100px;
-    border: 2px solid black;
-    height: 30%; 	
-    width: 20%;
-    padding: 10px;
-    float: left;
-}
-.number2 {
-    text-align: center;
-    color : red;
-    background-color: grey;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 100px;
-    border: 2px solid black;
-    height: 30%; 	
-    width: 20%;
-    padding: 10px;
-    float: left;
-}
-.number3 {
+.any {
     text-align: center;
     color : red;
     background-color: grey;
@@ -45,5 +19,9 @@
     margin-left: auto;
     padding-top: 10%;
     display: inline-block;
-    padding-left: 17%;
+    padding-left: 8%;
+}
+
+.warning {
+    color : orange;
 }
