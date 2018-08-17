@@ -9,7 +9,7 @@
 <body>
 	<div class="number">
 		<!-- <marquee direction="left"> -->
-			<span name="number" class="ANY"></span>
+			<ul name="number" class="ANY"></ul>
 		<!-- </marquee> -->
 
 	</div>
@@ -19,10 +19,10 @@
 		function randomNumber(highest){
 			return Math.floor(Math.random() * Math.floor(highest));
 		}
-		console.log(randomNumber(10));
+		console.log(randomNumber());
 
 		let domNumber = document.querySelector('.ANY');
-		domNumber.innerHTML = randomNumber();
+		domNumber.innerHTML = randomNumber(10);
 	</script>
 </body>
 
