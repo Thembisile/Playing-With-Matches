@@ -9,7 +9,3 @@ for (let index = 0; index < elems.length; index++) {
     const element = elems[index];
     element.innerHTML = randomNumber(); 
 }
-// if (element === element ) {
-//     displayElem.innerHTML = 'Match Found';
-//     return ;
-// }

@@ -21,6 +21,13 @@
     display: inline-block;
     padding-left: 8%;
 }
+.buttonStyle {
+    text-align: center;
+    padding: 10px;
+}
+.randomButton {
+    padding: 2%;
+}
 
 .warning {
     color : orange;
