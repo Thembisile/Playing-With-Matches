@@ -9,6 +9,7 @@
     height: 30%; 	
     width: 20%;
     padding: 10px;
+    float: left;
 }
 .number2 {
     text-align: center;
@@ -21,6 +22,7 @@
     height: 30%; 	
     width: 20%;
     padding: 10px;
+    float: left;
 }
 .number3 {
     text-align: center;
@@ -33,14 +35,15 @@
     height: 30%; 	
     width: 20%;
     padding: 10px;
+    float: left;
 }
 .number {
     font-size: 100px;
     text-align: center;
-    width: 70%;
+    width: 100%;
     margin-left: auto;
-    margin-right: auto;
-    padding-top: 40px;
-    /* display: inline-block; */
-    float : right;
+    margin-left: auto;
+    padding-top: 10%;
+    display: inline-block;
+    padding-left: 17%;
 }
