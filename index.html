@@ -8,22 +8,20 @@
 
 <body>
 	<div class="number">
-		<!-- <marquee direction="left"> -->
-			<ul name="number" class="ANY"></ul>
-		<!-- </marquee> -->
+	
+		<div class="row">
+			<div name="number" class="ANY"></div>
+			<div class="number2">
+				
+			</div>
+			<div class="number3">
 
+			</div>
+		</div>
 	</div>
 
 
-	<script type="text/javascript">
-		function randomNumber(highest){
-			return Math.floor(Math.random() * Math.floor(highest));
-		}
-		console.log(randomNumber());
-
-		let domNumber = document.querySelector('.ANY');
-		domNumber.innerHTML = randomNumber(10);
-	</script>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
