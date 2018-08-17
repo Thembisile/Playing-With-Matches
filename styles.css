@@ -1,0 +1,21 @@
+.ANY {
+    text-align: center;
+    color : red;
+    background-color: grey;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    border: 2px solid black;
+    height: 30%; 	
+    width: 20%;
+    padding: 10px;
+}
+.number {
+    font-size: 100px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+
+}
